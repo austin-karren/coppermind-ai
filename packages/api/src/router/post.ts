@@ -1,8 +1,7 @@
 import type { TRPCRouterRecord } from "@trpc/server";
+import { desc, eq } from "@coppermind-ai/db";
+import { CreatePostSchema, Post } from "@coppermind-ai/db/schema";
 import { z } from "zod";
-
-import { desc, eq } from "@acme/db";
-import { CreatePostSchema, Post } from "@acme/db/schema";
 
 import { protectedProcedure, publicProcedure } from "../trpc";
 

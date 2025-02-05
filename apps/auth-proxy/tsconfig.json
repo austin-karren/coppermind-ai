@@ -1,4 +1,4 @@
 {
-  "extends": "@acme/tsconfig/base.json",
+  "extends": "@coppermind-ai/tsconfig/base.json",
   "include": ["routes"]
 }

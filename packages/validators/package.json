@@ -1,5 +1,5 @@
 {
-  "name": "@acme/validators",
+  "name": "@coppermind-ai/validators",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -22,12 +22,12 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@coppermind-ai/eslint-config": "workspace:*",
+    "@coppermind-ai/prettier-config": "workspace:*",
+    "@coppermind-ai/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@coppermind-ai/prettier-config"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@acme/eslint-config",
+  "name": "@coppermind-ai/eslint-config",
   "private": true,
   "version": "0.3.0",
   "type": "module",
@@ -24,12 +24,12 @@
     "typescript-eslint": "^8.21.0"
   },
   "devDependencies": {
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@coppermind-ai/prettier-config": "workspace:*",
+    "@coppermind-ai/tsconfig": "workspace:*",
     "@types/eslint__js": "8.42.3",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@coppermind-ai/prettier-config"
 }
