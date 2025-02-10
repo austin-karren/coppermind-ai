@@ -2,8 +2,8 @@ import type { ConfigContext, ExpoConfig } from "expo/config";
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "expo",
-  slug: "expo",
+  name: "Coppermind AI",
+  slug: "coppermind-ai",
   scheme: "expo",
   version: "0.1.0",
   orientation: "portrait",
@@ -29,11 +29,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       backgroundColor: "#1F104A",
     },
   },
-  // extra: {
-  //   eas: {
-  //     projectId: "your-eas-project-id",
-  //   },
-  // },
+  extra: {
+    eas: {
+      projectId: "a441fd5c-392d-4589-b1bf-9d6f02154dc3",
+    },
+  },
+  owner: "austin-karren",
   experiments: {
     tsconfigPaths: true,
     typedRoutes: true,
